@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== REMIXICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="/css/navbar.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/nosotros.css">
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=TU_CLAVE_API&callback=initMap"></script>
+
+    <title>Mi segunda familia school</title>
+</head>
+
+<body>
+    <!--=============== HEADER ===============-->
+    <header class="header">
+        <nav class="nav container">
+            <div class="nav__data">
+                <a href="#" class="nav__logo">
+                    <i class="ri-school-line"></i>
+                </a>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-menu-line nav__burger"></i>
+                    <i class="ri-close-line nav__close"></i>
+                </div>
+            </div>
+
+            <!--=============== NAV MENU ===============-->
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li><a href="index.html" class="nav__link">Inicio</a></li>
+
+                    <!--=============== DROPDOWN 1 ===============-->
+                    <li class="dropdown__item">
+                        <div class="nav__link">
+                            <a href="nosotros.html">
+                                Acerca de nosotros <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                            </a>
+                        </div>
+                        <ul class="dropdown__menu">
+                            <!-- Submenú para Inicial -->
+                            <li class="dropdown__subitem">
+                                <a href="historia.html">
+                                    <div class="dropdown__link">
+                                        <i class="ri-hourglass-line"></i> Historia</i>
+                                </a>
+            </div>
+            </li>
+            <!-- Submenú para Primaria -->
+            <li class="dropdown__subitem">
+                <a href="nosotros.html">
+                    <div class="dropdown__link">
+                        <i class="ri-book-line"></i> Proposito <i class="ri-add-line dropdown__add"></i>
+                    </div>
+                </a>
+                <ul class="dropdown__submenu">
+                    <li>
+                        <a href="nosotros.html#vision" class="dropdown__sublink">
+                            <i class="ri-flag-line"></i> Mision
+                        </a>
+                    </li>
+                    <li>
+                        <a href="nosotros.html#vision" class="dropdown__sublink">
+                            <i class="ri-eye-line"></i> Vision
+                        </a>
+                    </li>
+                    <li>
+                        <a href="nosotros.html#valores" class="dropdown__sublink">
+                            <i class="ri-hand-heart-line"></i> Valores
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            </ul>
+            </li>
+
+
+            <!--=============== DROPDOWN 2 ===============-->
+            <li class="dropdown__item">
+                <div class="nav__link">
+                    Educación <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                </div>
+                <ul class="dropdown__menu">
+                    <!-- Submenú para Inicial -->
+                    <li class="dropdown__subitem">
+                        <div class="dropdown__link">
+                            <i class="ri-pencil-line"></i> Inicial <i class="ri-add-line dropdown__add"></i>
+                        </div>
+                        <ul class="dropdown__submenu">
+                            <li>
+                                <a href="#" class="dropdown__sublink">
+                                    <i class="ri-information-line"></i> Introducción
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="dropdown__sublink">
+                                    <i class="ri-compass-line"></i> Objetivos
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="dropdown__sublink">
+                                    <i class="ri-lightbulb-line"></i> Metodología
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="dropdown__sublink">
+                                    <i class="ri-book-2-line"></i> Áreas de Aprendizaje
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="dropdown__sublink">
+                                    <i class="ri-time-line"></i> Horario
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- Submenú para Primaria -->
+                    <li class="dropdown__subitem">
+                        <div class="dropdown__link">
+                            <i class="ri-book-line"></i> Primaria <i class="ri-add-line dropdown__add"></i>
+                        </div>
+                        <ul class="dropdown__submenu">
+                            <li>
+                                <a href="#" class="dropdown__sublink">
+                                    <i class="ri-information-line"></i> Introducción
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="dropdown__sublink">
+                                    <i class="ri-compass-line"></i> Objetivos
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="dropdown__sublink">
+                                    <i class="ri-lightbulb-line"></i> Metodología
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="dropdown__sublink">
+                                    <i class="ri-book-2-line"></i> Áreas de Aprendizaje
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="dropdown__sublink">
+                                    <i class="ri-time-line"></i> Horario
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li><a href="formulario.html" class="nav__link">Contactanos</a></li>
+            <li>
+                <a href="login.html" class="nav__link">
+                    <i class="ri-login-box-line"></i> Login
+                </a>
+            </li>
+            </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!--=============== JS ===============-->
+    <script src="/js/navbar.js"></script>
+    <script src="/js/nosotros.js"></script>
+
+
+
+
+
+
+    <!--=============== CONTENIDO PRINCIPAL ===============-->
+    <main class="main-content">
+        <section class="about-us">
+            <h1>Acerca de Nosotros</h1>
+            <p>Bienvenido a nuestra página de "Acerca de Nosotros". Aquí puedes conocer más sobre nuestra
+                misión, visión y valores.</p>
+        </section>
+
+
+
+        <section class="mission-vision-values" id="mission">
+            <div class="mission">
+                <h2>Misión</h2>
+                <p>En Mi Segunda Familia School, nuestra misión es proporcionar una educación integral que fomente el
+                    desarrollo académico, personal y social de cada estudiante. Nos dedicamos a crear un entorno
+                    acogedor y
+                    seguro donde los niños puedan explorar sus pasiones, desarrollar sus habilidades y convertirse en
+                    aprendices de por vida. Nos esforzamos por inspirar a nuestros estudiantes a alcanzar su máximo
+                    potencial y a convertirse en ciudadanos responsables y comprometidos con su comunidad y el mundo.
+                </p>
+            </div>
+
+            <div class="vision" id="vision">
+                <h2>Visión</h2>
+                <p>Nuestra visión es ser una institución educativa líder que sea reconocida por su excelencia académica
+                    y su
+                    compromiso con el desarrollo holístico de cada niño. Aspiramos a ser un lugar donde la innovación en
+                    la
+                    enseñanza y el aprendizaje se combine con un profundo respeto por los valores humanos y la
+                    diversidad
+                    cultural. Queremos que nuestros estudiantes salgan al mundo con confianza, creatividad y un fuerte
+                    sentido de propósito, preparados para enfrentar los desafíos del futuro con integridad y pasión.</p>
+            </div>
+            <div class="values" id="valores">
+                <h2>Valores</h2>
+                <div class="valores">
+
+                    <div class="value-box" data-index="0">
+                        <h3>Integridad</h3>
+                        <p>Promovemos la honestidad, la transparencia y el respeto en todas nuestras acciones. Creemos
+                            que la
+                            integridad es la base de una comunidad escolar fuerte y confiable.</p>
+                    </div>
+                    <div class="value-box" data-index="1">
+                        <h3>Innovación</h3>
+                        <p>Fomentamos la creatividad y la curiosidad, alentando a nuestros estudiantes y docentes a
+                            explorar
+                            nuevas ideas y métodos para mejorar continuamente.</p>
+                    </div>
+                    <div class="value-box" data-index="2">
+                        <h3>Compasión</h3>
+                        <p>Valoramos la empatía y la bondad, enseñando a nuestros estudiantes a ser sensibles a las
+                            necesidades
+                            de los demás y a actuar con compasión en todas sus interacciones.</p>
+                    </div>
+                    <div class="value-box" data-index="3">
+                        <h3>Excelencia</h3>
+                        <p>Nos comprometemos a mantener altos estándares académicos y personales, alentando a cada
+                            miembro de
+                            nuestra comunidad escolar a esforzarse por la excelencia en todo lo que hace.</p>
+                    </div>
+                    <div class="value-box" data-index="4">
+                        <h3>Responsabilidad</h3>
+                        <p>Enseñamos la importancia de la responsabilidad personal y social, animando a nuestros
+                            estudiantes a
+                            ser ciudadanos activos y comprometidos que contribuyan positivamente.</p>
+                    </div>
+                    <div class="value-box" data-index="5">
+                        <h3>Diversidad</h3>
+                        <p>Celebramos la diversidad y promovemos un ambiente inclusivo donde cada individuo es valorado
+                            y
+                            respetado por sus diferencias únicas y contribuciones.</p>
+                    </div>
+                </div>
+        </section>
+
+
+
+
+        <section class="location" id="ubicacion">
+            <h2>Ubicación</h2>
+            <div id="map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m17!1m8!1m3!1d931.2897755840474!2d-76.34715882970012!3d-13.13733681066901!3m2!1i1024!2i768!4f13.1!4m6!3e6!4m0!4m3!3m2!1d-13.137329590003613!2d-76.34672754942102!5e1!3m2!1ses!2spe!4v1719180777160!5m2!1ses!2spe"
+                    width="100%" height="100%" style="border: none;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+
+    </main>
+
+
+
+
+    <footer class="pie-pagina">
+        <div class="grupo-1">
+            <div class="box">
+                <figure>
+                    <a href="#">
+                        <img src="img/logotipo-sleedw.svg" alt="Logo de SLee Dw">
+                    </a>
+                </figure>
+            </div>
+            <div class="box">
+                <h2>SOBRE NOSOTROS</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, ipsa?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, ipsa?</p>
+            </div>
+            <div class="box">
+                <h2>SIGUENOS</h2>
+                <div class="red-social">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-youtube"></a>
+                </div>
+            </div>
+        </div>
+        <div class="grupo-2">
+            <small>&copy; 2021 <b>SLee Dw</b> - Todos los Derechos Reservados.</small>
+        </div>
+
+
+    </footer>
+</body>
+
+</html>

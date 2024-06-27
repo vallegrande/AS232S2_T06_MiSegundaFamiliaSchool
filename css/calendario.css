@@ -1,0 +1,38 @@
+/*ESTANDARES DE COLORES Y FUENTE DE LETRA*/
+:root {
+  --text-color: #000000;
+  --bg-color: #fff;
+  --main-color: #134ba7;
+  --botton-color: #970b33;
+
+  --h1-font: 2.2em;
+  --h2-font: 3rem;
+  --p-font: 1rem;
+}
+
+.marquee {
+  border-radius: 0 0 15px 15px; /* Redondea solo la parte inferior */
+  position: relative;
+  padding: 60px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.386); /* Sombra sutil */
+  width: 100%; /* Ancho máximo del calendario */
+  margin: 0 auto; /* Centrado horizontalmente */
+  display: grid;
+  gap: 20px;
+  text-align: center; /* Alineación de texto centrado */
+  
+}
+.marquee h1 {
+  color: var(--botton-color);
+  font-size: 30px;
+}
+
+.marquee .event-name {
+  font-weight: bold; /* Hace que el nombre del evento sea más llamativo */
+  font-size: 20px; /* Tamaño de fuente del nombre del evento, aumentado */
+  margin-bottom: 8px; /* Espacio entre el nombre del evento y la fecha, aumentado */
+}
+
+.marquee .event-date {
+  font-size: 18px; /* Tamaño de fuente más grande para la fecha */
+}
