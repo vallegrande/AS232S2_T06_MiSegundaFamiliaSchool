@@ -9,9 +9,9 @@
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
 
     <!--=============== CSS ===============-->
-    <link rel="stylesheet" href="/css/navbar.css">
-    <link rel="stylesheet" href="/css/footer.css">
-    <link rel="stylesheet" href="/css/nosotros.css">
+    <link rel="stylesheet" href="/public/css/navbar.css">
+    <link rel="stylesheet" href="/public/css/footer.css">
+    <link rel="stylesheet" href="/public/css/nosotros.css">
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=TU_CLAVE_API&callback=initMap"></script>
 
     <title>Mi segunda familia school</title>
@@ -45,9 +45,11 @@
                         <ul class="dropdown__menu">
                             <!-- Submenú para Inicial -->
                             <li class="dropdown__subitem">
-                                <div class="dropdown__link">
-                                    <i class="ri-hourglass-line"></i> Historia</i>
-                                </div>
+                                <a href="historia.html">
+                                    <div class="dropdown__link">
+                                        <i class="ri-hourglass-line"></i> Historia</i>
+                                    </div>
+                                </a>
                             </li>
                             <!-- Submenú para Primaria -->
                             <li class="dropdown__subitem">
@@ -86,9 +88,11 @@
                         <ul class="dropdown__menu">
                             <!-- Submenú para Inicial -->
                             <li class="dropdown__subitem">
+                                <a href="inical.html">
                                 <div class="dropdown__link">
                                     <i class="ri-pencil-line"></i> Inicial <i class="ri-add-line dropdown__add"></i>
                                 </div>
+                                 </a>
                                 <ul class="dropdown__submenu">
                                     <li>
                                         <a href="#" class="dropdown__sublink">
@@ -209,10 +213,10 @@
             </section>
 
             <div class="image-gallery">
-                <img src="/img/F1.jpg" alt="Imagen 1" class="gallery-image">
-                <img src="/img/F1.jpg" alt="Imagen 2" class="gallery-image">
-                <img src="/img/PRINCIPAL.jpg" alt="Imagen 3" class="gallery-image">
-                <img src="/img/PRINCIPAL.jpg" alt="Imagen 4" class="gallery-image">
+                <img src="/public/img/F1.jpg" alt="Imagen 1" class="gallery-image">
+                <img src="/public/img/F1.jpg" alt="Imagen 2" class="gallery-image">
+                <img src="/public/img/PRINCIPAL.jpg" alt="Imagen 3" class="gallery-image">
+                <img src="/public/img/PRINCIPAL.jpg" alt="Imagen 4" class="gallery-image">
             </div>
         </div>
     </main>
@@ -236,7 +240,7 @@
             <div class="box">
                 <figure>
                     <a href="#">
-                        <img src="img/logotipo-sleedw.svg" alt="Logo de SLee Dw">
+                        <img src="/publicimg/logotipo-sleedw.svg" alt="Logo de SLee Dw">
                     </a>
                 </figure>
             </div>
@@ -260,7 +264,8 @@
         </div>
     </footer>
     <!--=============== JS ===============-->
-    <script src="/js/navbar.js"></script>
+    <script src="/public/js/navbar.js"></script>
+    <script src="/public/js/nosotros.js"></script>
 
 </body>
 

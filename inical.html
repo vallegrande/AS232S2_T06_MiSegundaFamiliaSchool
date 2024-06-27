@@ -12,163 +12,167 @@
 
 
     <!--=============== CSS ===============-->
-    <link rel="stylesheet" href="/css/navbar.css">
-    <link rel="stylesheet" href="/css/footer.css">
-    <link rel="stylesheet" href="/css/inicial.css">
+    <link rel="stylesheet" href="/public/css/navbar.css">
+    <link rel="stylesheet" href="/public/css/footer.css">
+    <link rel="stylesheet" href="/public/css/inicial.css">
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=TU_CLAVE_API&callback=initMap"></script>
 
     <title>Mi segunda familia school</title>
 </head>
 
 <body>
-    <!--=============== HEADER ===============-->
-    <header class="header">
-        <nav class="nav container">
-            <div class="nav__data">
-                <a href="#" class="nav__logo">
-                    <i class="ri-school-line"></i>
-                </a>
+     <!--=============== HEADER ===============-->
+     <header class="header">
+      <nav class="nav container">
+          <div class="nav__data">
+              <a href="#" class="nav__logo">
+                  <i class="ri-school-line"></i>
+              </a>
 
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class="ri-menu-line nav__burger"></i>
-                    <i class="ri-close-line nav__close"></i>
-                </div>
-            </div>
+              <div class="nav__toggle" id="nav-toggle">
+                  <i class="ri-menu-line nav__burger"></i>
+                  <i class="ri-close-line nav__close"></i>
+              </div>
+          </div>
 
-            <!--=============== NAV MENU ===============-->
-            <div class="nav__menu" id="nav-menu">
-                <ul class="nav__list">
-                    <li><a href="index.html" class="nav__link">Inicio</a></li>
+          <!--=============== NAV MENU ===============-->
+          <div class="nav__menu" id="nav-menu">
+              <ul class="nav__list">
+                  <li><a href="index.html" class="nav__link">Inicio</a></li>
 
-                    <!--=============== DROPDOWN 1 ===============-->
-                    <li class="dropdown__item">
-                        <div class="nav__link">
-                            Acerca de nosotros <i class="ri-arrow-down-s-line dropdown__arrow"></i>
-                        </div>
-                        <ul class="dropdown__menu">
-                            <!-- Submenú para Inicial -->
-                            <li class="dropdown__subitem">
-                                <div class="dropdown__link">
-                                    <i class="ri-hourglass-line"></i> Historia</i>
-                                </div>
-                            </li>
-                            <!-- Submenú para Primaria -->
-                            <li class="dropdown__subitem">
-                                <a href="nosotros.html">
-                                    <div class="dropdown__link">
-                                        <i class="ri-book-line"></i> Proposito <i class="ri-add-line dropdown__add"></i>
-                                    </div>
-                                </a>
-                                <ul class="dropdown__submenu">
-                                    <li>
-                                        <a href="nosotros.html#vision" class="dropdown__sublink">
-                                            <i class="ri-flag-line"></i> Mision
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="nosotros.html#vision" class="dropdown__sublink">
-                                            <i class="ri-eye-line"></i> Vision
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="nosotros.html#valores" class="dropdown__sublink">
-                                            <i class="ri-hand-heart-line"></i> Valores
-                                        </a>
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </li>
+                  <!--=============== DROPDOWN 1 ===============-->
+                  <li class="dropdown__item">
+                      <div class="nav__link">
+                          Acerca de nosotros <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                      </div>
+                      <ul class="dropdown__menu">
+                          <!-- Submenú para Inicial -->
+                          <li class="dropdown__subitem">
+                              <a href="historia.html">
+                                  <div class="dropdown__link">
+                                      <i class="ri-hourglass-line"></i> Historia</i>
+                                  </div>
+                              </a>
+                          </li>
+                          <!-- Submenú para Primaria -->
+                          <li class="dropdown__subitem">
+                              <a href="nosotros.html">
+                                  <div class="dropdown__link">
+                                      <i class="ri-book-line"></i> Proposito <i class="ri-add-line dropdown__add"></i>
+                                  </div>
+                              </a>
+                              <ul class="dropdown__submenu">
+                                  <li>
+                                      <a href="nosotros.html#vision" class="dropdown__sublink">
+                                          <i class="ri-flag-line"></i> Mision
+                                      </a>
+                                  </li>
+                                  <li>
+                                      <a href="nosotros.html#vision" class="dropdown__sublink">
+                                          <i class="ri-eye-line"></i> Vision
+                                      </a>
+                                  </li>
+                                  <li>
+                                      <a href="nosotros.html#valores" class="dropdown__sublink">
+                                          <i class="ri-hand-heart-line"></i> Valores
+                                      </a>
+                                  </li>
+                              </ul>
+                          </li>
+                      </ul>
+                  </li>
 
 
-                    <!--=============== DROPDOWN 2 ===============-->
-                    <li class="dropdown__item">
-                        <div class="nav__link">
-                            Educación <i class="ri-arrow-down-s-line dropdown__arrow"></i>
-                        </div>
-                        <ul class="dropdown__menu">
-                            <!-- Submenú para Inicial -->
-                            <li class="dropdown__subitem">
-                                <div class="dropdown__link">
-                                    <i class="ri-pencil-line"></i> Inicial <i class="ri-add-line dropdown__add"></i>
-                                </div>
-                                <ul class="dropdown__submenu">
-                                    <li>
-                                        <a href="#" class="dropdown__sublink">
-                                            <i class="ri-information-line"></i> Introducción
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" class="dropdown__sublink">
-                                            <i class="ri-compass-line"></i> Objetivos
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" class="dropdown__sublink">
-                                            <i class="ri-lightbulb-line"></i> Metodología
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" class="dropdown__sublink">
-                                            <i class="ri-book-2-line"></i> Áreas de Aprendizaje
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" class="dropdown__sublink">
-                                            <i class="ri-time-line"></i> Horario
-                                        </a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <!-- Submenú para Primaria -->
-                            <li class="dropdown__subitem">
-                                <div class="dropdown__link">
-                                    <i class="ri-book-line"></i> Primaria <i class="ri-add-line dropdown__add"></i>
-                                </div>
-                                <ul class="dropdown__submenu">
-                                    <li>
-                                        <a href="#" class="dropdown__sublink">
-                                            <i class="ri-information-line"></i> Introducción
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" class="dropdown__sublink">
-                                            <i class="ri-compass-line"></i> Objetivos
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" class="dropdown__sublink">
-                                            <i class="ri-lightbulb-line"></i> Metodología
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" class="dropdown__sublink">
-                                            <i class="ri-book-2-line"></i> Áreas de Aprendizaje
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" class="dropdown__sublink">
-                                            <i class="ri-time-line"></i> Horario
-                                        </a>
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </li>
-                    <li><a href="formulario.html" class="nav__link">Contactanos</a></li>
-                    <li>
-                        <a href="login.html" class="nav__link">
-                            <i class="ri-login-box-line"></i> Login
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </header>
+                  <!--=============== DROPDOWN 2 ===============-->
+                  <li class="dropdown__item">
+                      <div class="nav__link">
+                          Educación <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                      </div>
+                      <ul class="dropdown__menu">
+                          <!-- Submenú para Inicial -->
+                          <li class="dropdown__subitem">
+                              <a href="inical.html">
+                              <div class="dropdown__link">
+                                  <i class="ri-pencil-line"></i> Inicial <i class="ri-add-line dropdown__add"></i>
+                              </div>
+                               </a>
+                              <ul class="dropdown__submenu">
+                                  <li>
+                                      <a href="#" class="dropdown__sublink">
+                                          <i class="ri-information-line"></i> Introducción
+                                      </a>
+                                  </li>
+                                  <li>
+                                      <a href="#" class="dropdown__sublink">
+                                          <i class="ri-compass-line"></i> Objetivos
+                                      </a>
+                                  </li>
+                                  <li>
+                                      <a href="#" class="dropdown__sublink">
+                                          <i class="ri-lightbulb-line"></i> Metodología
+                                      </a>
+                                  </li>
+                                  <li>
+                                      <a href="#" class="dropdown__sublink">
+                                          <i class="ri-book-2-line"></i> Áreas de Aprendizaje
+                                      </a>
+                                  </li>
+                                  <li>
+                                      <a href="#" class="dropdown__sublink">
+                                          <i class="ri-time-line"></i> Horario
+                                      </a>
+                                  </li>
+                              </ul>
+                          </li>
+                          <!-- Submenú para Primaria -->
+                          <li class="dropdown__subitem">
+                              <div class="dropdown__link">
+                                  <i class="ri-book-line"></i> Primaria <i class="ri-add-line dropdown__add"></i>
+                              </div>
+                              <ul class="dropdown__submenu">
+                                  <li>
+                                      <a href="#" class="dropdown__sublink">
+                                          <i class="ri-information-line"></i> Introducción
+                                      </a>
+                                  </li>
+                                  <li>
+                                      <a href="#" class="dropdown__sublink">
+                                          <i class="ri-compass-line"></i> Objetivos
+                                      </a>
+                                  </li>
+                                  <li>
+                                      <a href="#" class="dropdown__sublink">
+                                          <i class="ri-lightbulb-line"></i> Metodología
+                                      </a>
+                                  </li>
+                                  <li>
+                                      <a href="#" class="dropdown__sublink">
+                                          <i class="ri-book-2-line"></i> Áreas de Aprendizaje
+                                      </a>
+                                  </li>
+                                  <li>
+                                      <a href="#" class="dropdown__sublink">
+                                          <i class="ri-time-line"></i> Horario
+                                      </a>
+                                  </li>
+                              </ul>
+                          </li>
+                      </ul>
+                  </li>
+                  <li><a href="formulario.html" class="nav__link">Contactanos</a></li>
+                  <li>
+                      <a href="login.html" class="nav__link">
+                          <i class="ri-login-box-line"></i> Login
+                      </a>
+                  </li>
+              </ul>
+          </div>
+      </nav>
+  </header>
 
     <!--=============== JS ===============-->
-    <script src="/js/navbar.js"></script>
-    <script src="/js/nosotros.js"></script>
+    <script src="/public/js/navbar.js"></script>
+    <script src="/public/js/nosotros.js"></script>
 
 
 
@@ -182,7 +186,7 @@
     <div>
       <div class="card">
         <div class="face front">
-          <img src="img/PRINCIPAL.jpg" alt="" />
+          <img src="/public/img/PRINCIPAL.jpg" alt="" />
           <h3>Visión</h3>
         </div>
         <div class="face back">
@@ -198,7 +202,7 @@
     <div>
       <div class="card">
         <div class="face front">
-          <img src="/img/PRINCIPAL.jpg" alt="" />
+          <img src="/public/img/PRINCIPAL.jpg" alt="" />
           <h3>Misión</h3>
         </div>
         <div class="face back">
@@ -214,7 +218,7 @@
     <div>
       <div class="card">
         <div class="face front">
-          <img src="/img/PRINCIPAL.jpg" alt="" />
+          <img src="/public/img/PRINCIPAL.jpg" alt="" />
           <h3>Valores</h3>
         </div>
         <div class="face back">
@@ -232,7 +236,7 @@
     <div>
       <div class="card">
         <div class="face front">
-          <img src="/img/PRINCIPAL.jpg" alt="" />
+          <img src="/public/img/PRINCIPAL.jpg" alt="" />
           <h3>Objetivos</h3>
         </div>
         <div class="face back">
@@ -250,7 +254,7 @@
     <div>
       <div class="card">
         <div class="face front">
-          <img src="/img/PRINCIPAL.jpg" alt="" />
+          <img src="/public/img/PRINCIPAL.jpg" alt="" />
           <h3>Docentes</h3>
         </div>
         <div class="face back">
@@ -270,7 +274,7 @@
     <div>
         <div class="card">
           <div class="face front">
-            <img src="/img/PRINCIPAL.jpg" alt="" />
+            <img src="/public/img/PRINCIPAL.jpg" alt="" />
             <h3>Docentes</h3>
           </div>
           <div class="face back">
@@ -290,7 +294,7 @@
       <div>
         <div class="card">
           <div class="face front">
-            <img src="/img/PRINCIPAL.jpg" alt="" />
+            <img src="/public/img/PRINCIPAL.jpg" alt="" />
             <h3>Docentes</h3>
           </div>
           <div class="face back">
@@ -310,7 +314,7 @@
       <div>
         <div class="card">
           <div class="face front">
-            <img src="/img/PRINCIPAL.jpg" alt="" />
+            <img src="/public/img/PRINCIPAL.jpg" alt="" />
             <h3>Docentes</h3>
           </div>
           <div class="face back">

@@ -10,7 +10,7 @@ const fs = require('fs');
 const ip = '3.228.116.177';
 
 app.use(express.static(path.join(__dirname)));
-app.use(cors({origin: 'http://localhost:3000'}));
+app.use(cors({origin: 'http://&{ip}:3000'}));
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
@@ -127,7 +127,7 @@ app.get("/api/dates/:current", (req, res) => {
 });
 
 app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, '2', 'index.html'));
+    res.sendFile(path.join(__dirname, 'pagina', 'index.html'));
 });
 
 
